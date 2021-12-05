@@ -1,9 +1,5 @@
-# V BOOK
-
 ![](logo.jpeg)
-
-
-
+  # V BOOK
 
 **DESCRIPTION**
 
