@@ -1,6 +1,6 @@
 # V BOOK
 
-                        ![](logo.jpeg)
+![](logo.jpeg)
 
 
 
