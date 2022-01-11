@@ -1,5 +1,7 @@
-![](logo.jpeg)
-  # V BOOK
+
+
+
+# V BOOK
 
 **DESCRIPTION**
 
@@ -7,10 +9,20 @@
 V Book is a web application, where users can get audio recorded lecture notes and they can even edit their notes by adding audio visuals .It is an open source web platform, where users can upload their notes and can even edit them according to their needs. 
 Learning becomes easier.
 
+V Book is a platform where many voice books are present and a voice notes making web application, where
+users can get two feature for making their learning process very easy 
+
+1.Voice books which different kind of e books in which the digital written notes is available with the concept in Audio as well as in vedio from which will give a better understanding
+
+2.V notes it's a class notes making application but the thing which make it different is that we can make the notes in audio form or in written or in short vedio from 
+Bec the traditional notes making is a very boring and and time taking process it will save very time as well as the student never forget the vedio and audio of any topic bec our brain remember that thing for long time which he saw or heard.
+
+
 
 **TABLE OF CONTENTS**
 
 * [Features]()
+* [Its Principle]()
 
 * [Extra features]()
 
@@ -27,6 +39,16 @@ Learning becomes easier.
 - No need to carry a whole bundle of books 
 - Easy workflow management
 - Work is never lost, every data is secure 
+### Its Principle
+A simple concept is when we learn something by writing (or by taking notes) it takes a
+lot of time and do not lasts long so when we came back to revise we get a lot of doubt
+(because while taking notes, we can't write everything that the lecturer or the faculty
+says) whereas,
+With the help of V Notes(one of the features of V BOOK), we can get through it as in V
+Notes we can add audio files and also record some parts of complicated lecture so
+when we revise it by listening and watching the concepts got much clear and lasts
+longer also it saves a lot of time.
+
 
 
 ### Extra Features (that will make this project more successful)
@@ -83,6 +105,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 
 
-### Upcoming plans
+### Plans in progress
 - V Notes 
 - Database and backend management
