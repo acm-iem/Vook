@@ -104,9 +104,13 @@ body{
     
 }
 
-.front audio{
-    width: 100%;
+
+.s_audio audio{
+    width: 15vw;
     outline: none;
+    position: fixed;
+    bottom: 10px;
+    left: 63%;
 }
 
 /* Paper flip effect */
