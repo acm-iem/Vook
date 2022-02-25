@@ -31,61 +31,78 @@
 
 .phy_11_card_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.phy_11_card{
-    background-color: #77c777;
-    width: 300px;
-    height: 500px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 25px;
+.card{
+
+    width: 250px;
+    height: 400px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0,5);
+    transition: 0.5s ease-in-out;
 }
 
-.phy_11_card_image{
-    background-color: white;
-    margin: 10px;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px;
-    overflow: auto;
+
+.card:hover{
+    transform: translateY(20px);
 }
 
-.pbook-11-1{
-    background-image: url('https://quizizz.com/media/resource/gs/quizizz-media/quizzes/efb574f4-93bd-4073-ac89-2dbfa3621cce?w=90&h=90');
-}
-
-.pbook-11-2{
-    background-image: url('');
-}
-
-.pbook-11-3{
-    background-image: url('');
-}
-
-.pbook-11-4{
-    background-image: url('');
-}
-
-.phy_11_card h2{
-    padding: 10px;
-}
-
-.phy_11_card p{
-    padding: 10px;
-}
-
-.phy_11_card a{
-    background-color: #548654;
-    color: white;
-    padding: 15px 20px;
+.card:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,176,155,0.5),rgba(150,201,61,1));
+    z-index: 2;
+    transition: 0.5% all;
+    opacity: 0;
+}
+
+.card:hover:before{
+    opacity: 1;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5% all;
+}
+
+.card:hover .info{
+    opacity: 1;
+    transform: transition(0px);
+}
+
+.card .info h1{
+    margin: 0;
+}
+
+.card .info p{
+    letter-spacing: 1px;
+    font--size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
 }
 
 .see_all{
@@ -96,14 +113,6 @@
     text-decoration: none;
     height: 2vh;
     border-radius: 25px;
-}
-
-.phy_11_card:hover{
-    background-color: #539b53;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
 }
 
 .chm_11_h{
@@ -123,70 +132,10 @@
 
 .chm_11_card_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.chm_11_card{
-    background-color: #dfdf6b;
-    width: 300px;
-    height: 500px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.chm_11_card_image{
-    background-color: white;
-    margin: 10px;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px;
-    overflow: auto;
-}
-
-.cbook-11-1{
-    background-image: url('https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/marketing/global/images/applications/materials-science-and-engineering-/abx3-crystal-structure/abx3-crystal-structure.jpg');
-}
-
-.cbook-11-2{
-    background-image: url('');
-}
-
-.cbook-11-3{
-    background-image: url('');
-}
-
-.cbook-11-4{
-    background-image: url('');
-}
-
-.chm_11_card h2{
-    padding: 10px;
-}
-
-.chm_11_card p{
-    padding: 10px;
-}
-
-.chm_11_card a{
-    background-color: #9b9b34;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-
-.chm_11_card:hover{
-    background-color: #b9b92d;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
-}
 
 .mth_11_h{
     color: #01462cee;
@@ -205,70 +154,10 @@
 
 .mth_11_card_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.mth_11_card{
-    background-color: #59a1db;
-    width: 300px;
-    height: 500px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.mth_11_card_image{
-    background-color: white;
-    margin: 10px;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px;
-    overflow: auto;
-}
-
-.mbook-11-1{
-    background-image: url('');
-}
-
-.mbook-11-2{
-    background-image: url('');
-}
-
-.mbook-11-3{
-    background-image: url('');
-}
-
-.mbook-11-4{
-    background-image: url('');
-}
-
-.mth_11_card h2{
-    padding: 10px;
-}
-
-.mth_11_card p{
-    padding: 10px;
-}
-
-.mth_11_card a{
-    background-color: #2f6b9c;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-
-.mth_11_card:hover{
-    background-color: #2679bd;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
-}
 
 .bio_11_h{
     color: #01462cee;
@@ -287,70 +176,10 @@
 
 .bio_11_card_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.bio_11_card{
-    background-color: #e47d7d;
-    width: 300px;
-    height: 500px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.bio_11_card_image{
-    background-color: white;
-    margin: 10px;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px;
-    overflow: auto;
-}
-
-.bbook-11-1{
-    background-image: url('');
-}
-
-.bbook-11-2{
-    background-image: url('');
-}
-
-.bbook-11-3{
-    background-image: url('');
-}
-
-.bbook-11-4{
-    background-image: url('');
-}
-
-.bio_11_card h2{
-    padding: 10px;
-}
-
-.bio_11_card p{
-    padding: 10px;
-}
-
-.bio_11_card a{
-    background-color: #ac3131;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-
-.bio_11_card:hover{
-    background-color: #df5353;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
-}
 
 .class_12{
     color: #01462cee;
@@ -385,69 +214,8 @@
 
 .phy_12_card_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.phy_12_card{
-    background-color: #77c777;
-    width: 300px;
-    height: 500px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.phy_12_card_image{
-    background-color: white;
-    margin: 10px;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px;
-    overflow: auto;
-}
-
-.pbook-12-1{
-    background-image: url('');
-}
-
-.pbook-12-2{
-    background-image: url('');
-}
-
-.pbook-12-3{
-    background-image: url('');
-}
-
-.pbook-12-4{
-    background-image: url('');
-}
-
-.phy_11_card h2{
-    padding: 10px;
-}
-
-.phy_12_card p{
-    padding: 10px;
-}
-
-.phy_12_card a{
-    background-color: #548654;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-
-.phy_12_card:hover{
-    background-color: #539b53;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
 }
 
 .chm_12_h{
@@ -467,69 +235,8 @@
 
 .chm_12_card_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.chm_12_card{
-    background-color: #dfdf6b;
-    width: 300px;
-    height: 500px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.chm_12_card_image{
-    background-color: white;
-    margin: 10px;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px;
-    overflow: auto;
-}
-
-.cbook-12-1{
-    background-image: url('')
-}
-
-.cbook-12-2{
-    background-image: url('');
-}
-
-.cbook-12-3{
-    background-image: url('');
-}
-
-.cbook-12-4{
-    background-image: url('');
-}
-
-.chm_12_card h2{
-    padding: 10px;
-}
-
-.chm_12_card p{
-    padding: 10px;
-}
-
-.chm_12_card a{
-    background-color: #9b9b34;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-
-.chm_12_card:hover{
-    background-color: #b9b92d;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
 }
 
 .mth_12_h{
@@ -549,69 +256,8 @@
 
 .mth_12_card_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.mth_12_card{
-    background-color: #59a1db;
-    width: 300px;
-    height: 500px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.mth_12_card_image{
-    background-color: white;
-    margin: 10px;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px;
-    overflow: auto;
-}
-
-.mbook-12-1{
-    background-image: url('');
-}
-
-.mbook-12-2{
-    background-image: url('');
-}
-
-.mbook-12-3{
-    background-image: url('');
-}
-
-.mbook-12-4{
-    background-image: url('');
-}
-
-.mth_12_card h2{
-    padding: 10px;
-}
-
-.mth_12_card p{
-    padding: 10px;
-}
-
-.mth_12_card a{
-    background-color: #2f6b9c;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-
-.mth_12_card:hover{
-    background-color: #2679bd;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
 }
 
 .bio_12_h{
@@ -631,67 +277,6 @@
 
 .bio_12_card_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.bio_12_card{
-    background-color: #e47d7d;
-    width: 300px;
-    height: 500px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.bio_12_card_image{
-    background-color: white;
-    margin: 10px;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px;
-    overflow: auto;
-}
-
-.bbook-12-1{
-    background-image: url('');
-}
-
-.bbook-12-2{
-    background-image: url('');
-}
-
-.bbook-12-3{
-    background-image: url('');
-}
-
-.bbook-12-4{
-    background-image: url('');
-}
-
-.bio_12_card h2{
-    padding: 10px;
-}
-
-.bio_12_card p{
-    padding: 10px;
-}
-
-.bio_12_card a{
-    background-color: #ac3131;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-}
-
-.bio_12_card:hover{
-    background-color: #df5353;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
 }
