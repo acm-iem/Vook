@@ -30,7 +30,7 @@ nav ol{
    margin: auto 0;
 }
 nav ol li{
-   margin: 0 2px;
+   margin: 0 4px;
 }
 nav ol li a{
    color: #fff;
@@ -50,8 +50,8 @@ nav .search_box{
    margin: auto 0;
    height: 35px;
    line-height: 40px;
-   
 }
+
 nav .search_box input{
    border: none;
    outline: none;
