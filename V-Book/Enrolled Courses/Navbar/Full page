@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <title> Responsive Drop Down Navigation Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link for social media icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#">Virtual Classroom</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">Virtual Classroom</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li><a href="../../../UI/index.html">HOME</a></li>
+                    <li>
+                        <a href="#">Filter</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a href="#">Enrolled Courses</a></li>
+                            <li class="more">
+                                <span><a href="#">All Courses</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                                <ul class="more-sub-menu sub-menu">
+                                  <div class="filter">
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" rel="Physics" onchange="change()"/>Physics</label>
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" rel="Chemistry" onchange="change()"/>Chemistry</label>
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" rel="Maths" onchange="change()"/>Maths</label>
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" rel="Others" onchange="change()"/>Others</label>
+                                    </div>
+                                    <div class="result">
+                                      <div class="Physics">
+                                      </div>
+                                      <div class="Chemistry">
+                                      </div>
+                                      <div class="Maths">
+                                      </div>
+                                      <div class="Others">
+                                      </div>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">V Book</a>
+                    </li>
+                    <li><a href="#">All Courses</a></li>
+                    <li><a href="#">My Profile</a></li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" placeholder="Search..." type="search" />
+                </div>
+            </div>
+        </div>
+    </nav>
+    <footer>
+      <div class="footer">
+        <div class="focol">
+          <div class="bar">
+            <ul class="menu">
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+            </ul>
+
+            <ul class="menu">
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+            </ul>
+
+            <ul class="menu">
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+            </ul>
+          </div>
+
+          <div class="co">
+            <h4>Follow us</h4>
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="fo">
+          <div class="logo">
+            <img src="Untitled-1.png" width="80px" height="80px" />
+            © V-Classroom 2022
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
