@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Navbar.css" />
+    <link rel="stylesheet" href="Card.css" />
+    <link rel="stylesheet" href="Advertisement.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    /> -->
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+  </head>
+
+  <body>
+    <!-- navigation bar -->
+    <nav>
+      <!-- <div class="logo">
+        <img src="img/logo.jpeg" width="80px" />
+      </div> -->
+
+      <div>
+        <form class="search">
+          <input type="text" placeholder="Search" name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="navdetails">
+        <ul>
+          <li>
+            <a href=""> Home </a>
+          </li>
+          <li>
+            <a href=""> All VBooks <i class="fas fa-caret-down"></i> </a>
+            <ul>
+              <li><a href="#"> lorem</a></li>
+              <li><a href="#">lorem</a></li>
+              <li><a href="#">lorem</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href=""> All Courses <i class="fas fa-caret-down"></i></a>
+            <ul>
+              <li><a href="#"> lorem</a></li>
+              <li><a href="#">lorem</a></li>
+              <li><a href="#">lorem</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href=""> Enrolled Courses <i class="fas fa-caret-down"></i> </a>
+
+            <ul>
+              <li><a href="#"> lorem</a></li>
+              <li><a href="#">lorem</a></li>
+              <li><a href="#">lorem</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- profile -->
+      <div class="profile">
+        <a href=""> My profile <i class="far fa-user-circle"></i></a>
+      </div>
+    </nav>
+    <!-- heading -->
+    <div class="dis_head">
+      <div class="heading">
+        <h2 data-text="ALL COURSES">ALL COURSES</h2>
+      </div>
+    </div>
+    <!-- advertising -->
+    <div class="advertisement">
+      <div class="advertisement_slide">
+        <div class="slider">
+          <div class="slide active">
+            <img src="img/1.jpg" alt="" />
+            <div class="info">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/2.jpg" alt="" />
+            <div class="info">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/3.jpg" alt="" />
+            <div class="info">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/4.jpg" alt="" />
+            <div class="info">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/5.jpg" alt="" />
+            <div class="info">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+          <div class="navigation">
+            <i class="fas fa-chevron-left prev-btn"></i>
+            <i class="fas fa-chevron-right next-btn"></i>
+          </div>
+          <div class="navigation-visibility">
+            <div class="slide-icon active"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Heading for class 11th text -->
+    <div class="class_11">
+      <h>Class XI</h>
+    </div>
+    <!-- Cards for subject of class 11th -->
+    <div class="Container_11">
+      <div class="phy_11_h">
+        <h><b>Physics</b></h>
+      </div>
+      <div class="physics_11">
+        <div class="wrapper">
+          <div class="carousel owlCarousel">
+            <div class="card" style="background-color: #ffefb9">
+              <div class="card__content">
+                <img
+                  src="Physics.jpg"
+                  width="100%"
+                  style="border-radius: 10px; height: 160px"
+                  class="img-thumbnail"
+                />
+                <div class="card-body">
+                  <h4>
+                    <center><marque>Title</marque></center>
+                  </h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"
+                    ><center>
+                      <button type="button" class="btn btn-info">
+                        Enroll here ->
+                      </button>
+                    </center></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="background-color: #ffefb9">
+              <div class="card__content">
+                <img
+                  src="Chemistry.jpeg"
+                  width="100%"
+                  style="border-radius: 10px; height: 160px"
+                  class="img-thumbnail"
+                />
+                <div class="card-body">
+                  <h4>
+                    <center><marque>Title</marque></center>
+                  </h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"
+                    ><center>
+                      <button type="button" class="btn btn-info">
+                        Enroll here ->
+                      </button>
+                    </center></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="background-color: #ffefb9">
+              <div class="card__content">
+                <img
+                  src="Math.jpg"
+                  width="100%"
+                  style="border-radius: 10px; height: 160px"
+                  class="img-thumbnail"
+                />
+                <div class="card-body">
+                  <h4>
+                    <center><marque>Title</marque></center>
+                  </h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"
+                    ><center>
+                      <button type="button" class="btn btn-info">
+                        Enroll here ->
+                      </button>
+                    </center></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="background-color: #ffefb9">
+              <div class="card__content">
+                <img
+                  src="Math.jpg"
+                  width="100%"
+                  style="border-radius: 10px; height: 160px"
+                  class="img-thumbnail"
+                />
+                <div class="card-body">
+                  <h4>
+                    <center><marque>Title</marque></center>
+                  </h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"
+                    ><center>
+                      <button type="button" class="btn btn-info">
+                        Enroll here ->
+                      </button>
+                    </center></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="background-color: #ffefb9">
+              <div class="card__content">
+                <img
+                  src="Math.jpg"
+                  width="100%"
+                  style="border-radius: 10px; height: 160px"
+                  class="img-thumbnail"
+                />
+                <div class="card-body">
+                  <h4>
+                    <center><marque>Title</marque></center>
+                  </h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"
+                    ><center>
+                      <button type="button" class="btn btn-info">
+                        Enroll here ->
+                      </button>
+                    </center></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chm_11_h">
+        <h><b>Chemistry</b></h>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owlCarousel">
+          <div class="card" style="background-color: #d1f0ff">
+            <div class="card__content">
+              <img
+                src="Physics.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #d1f0ff">
+            <div class="card__content">
+              <img
+                src="Chemistry.jpeg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #d1f0ff">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #d1f0ff">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #d1f0ff">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mth_11_h">
+        <h><b>Mathematics</b></h>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owlCarousel">
+          <div class="card" style="background-color: #ffb9f3">
+            <div class="card__content">
+              <img
+                src="Physics.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffb9f3">
+            <div class="card__content">
+              <img
+                src="Chemistry.jpeg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffb9f3">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffb9f3">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffb9f3">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bio_11_h">
+        <h><b>Biology</b></h>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owlCarousel">
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Physics.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Chemistry.jpeg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Heading for class 12th text -->
+    <div class="class_12">
+      <h>Class XII</h>
+    </div>
+    <!-- Cards for subject of class 12th -->
+    <div class="Container_12">
+      <div class="phy_12_h">
+        <h><b>Physics</b></h>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owlCarousel">
+          <div class="card" style="background-color: #ffd3cf">
+            <div class="card__content">
+              <img
+                src="Physics.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffd3cf">
+            <div class="card__content">
+              <img
+                src="Chemistry.jpeg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffd3cf">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffd3cf">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffd3cf">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chm_12_h">
+        <h><b>Chemistry</b></h>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owlCarousel">
+          <div class="card" style="background-color: #ffd3f3">
+            <div class="card__content">
+              <img
+                src="Physics.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffd3f3">
+            <div class="card__content">
+              <img
+                src="Chemistry.jpeg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffd3f3">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffd3f3">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffd3f3">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mth_12_h">
+        <h><b>Mathematics</b></h>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owlCarousel">
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Physics.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Chemistry.jpeg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bio_12_h">
+        <h><b>Biology</b></h>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owlCarousel">
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Physics.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Chemistry.jpeg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="background-color: #ffefb9">
+            <div class="card__content">
+              <img
+                src="Math.jpg"
+                width="100%"
+                style="border-radius: 10px; height: 160px"
+                class="img-thumbnail"
+              />
+              <div class="card-body">
+                <h4>
+                  <center><marque>Title</marque></center>
+                </h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link"
+                  ><center>
+                    <button type="button" class="btn btn-info">
+                      Enroll here ->
+                    </button>
+                  </center></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="focol">
+          <div class="bar">
+            <!-- <ul class="menu">
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+            </ul>
+
+            <ul class="menu">
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+            </ul>
+
+            <ul class="menu">
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+              <li><a class="details" href="#">About us</a></li>
+            </ul> -->
+          </div>
+
+          <div class="co">
+            <h4>Follow us</h4>
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="fo">
+          <div class="logo">
+            <img src="img/logo.jpeg" width="80px" />
+            © V-Classroom 2022
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="advertisement.js" defer></script>
+  </body>
+</html>

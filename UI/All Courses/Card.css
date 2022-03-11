@@ -1,0 +1,17 @@
+.card{
+    width: 15rem;
+    border-radius: 10px;
+    display:inline-flex;
+   margin:20px;
+   justify-content: space-evenly;
+   box-shadow: 0 3px 15px rgba(0,0,0,.4);
+ }
+ .card:hover {
+    height: 420px;
+    margin-top: -20px;
+ }
+ .carousel-item img{
+    width: 60vw;
+    height: 60vh;
+ 
+ }
