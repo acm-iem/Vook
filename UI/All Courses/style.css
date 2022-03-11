@@ -1,0 +1,89 @@
+.class_11{
+    margin: 23px;
+    font-size: 2rem;
+}
+.Container_11{
+    margin-left: 53px;
+}
+.chm_11_h{
+    margin: 13px;
+    font-size:1.6rem;
+}
+.phy_11_h{
+    margin: 13px;
+    font-size:1.6rem;
+}
+.mth_11_h{
+    margin: 13px;
+    font-size:1.6rem;
+}
+.bio_11_h{
+    margin: 13px;
+    font-size:1.6rem;
+}
+
+.class_12{
+    margin: 23px;
+    font-size: 2rem;
+}
+.Container_12{
+    margin-left: 53px;
+}
+.chm_12_h{
+    margin: 13px;
+    font-size:1.6rem;
+}
+.phy_12_h{
+    margin: 13px;
+    font-size:1.6rem;
+}
+.mth_12_h{
+    margin: 13px;
+    font-size:1.6rem;
+}
+.bio_12_h{
+    margin: 13px;
+    font-size:1.6rem;
+}
+.footer{
+   
+    padding-top: 20px;
+    background-color:#5FB5B7;
+ }
+ 
+ .focol{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+ }
+ .bar{
+    display:flex;
+    flex-wrap: wrap;
+ }
+ .menu{
+    display: block;
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 30px; padding: 50px;
+    list-style-type: none;
+ }
+ 
+ .details{
+    color:white;
+ }
+ .details:hover{
+    color:black;
+    text-decoration:underline;
+ }
+ 
+ .co{
+    padding: 70px;
+ }
+ .fo{
+    padding: 0px 20px;
+ }
+ .logo{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
