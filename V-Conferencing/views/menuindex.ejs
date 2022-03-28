@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V-Conferencing</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../static/menustyle.css" />
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="menu_buttons">
+        <a href="/new"
+          ><button class="btn"><i class="fas fa-video"></i></button
+        ></a>
+        <span>New meeting</span>
+      </div>
+      <div class="menu_buttons" id="link_box">
+        <form action="/join" method="POST" class="form-style"  id="form">
+          <input
+            type="text"
+            name="roomid"
+            id="link"
+            placeholder="Enter room ID"
+          />
+          <button type="submit" id="Submit" >Join</button>
+        </form>
+      </div>
+
+      <div class="menu_buttons" onclick="inputLink()">
+        <button class="btn">
+          <i class="fa fa-plus-square" aria-hidden="true"></i>
+        </button>
+        <span>Join meeting</span>
+      </div>
+    </div>
+
+    <script src="../static/menuscript.js"></script>
+  </body>
+</html>
